@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ ! -f /build/dsyn ]; then 
 	cd /build 
 	mkdir edm_yocto 
