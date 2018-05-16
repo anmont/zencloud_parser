@@ -10,3 +10,5 @@ if [ ! -f /build/dsyn ]; then
 	/home/bin/repo sync -j8 
 	touch /build/dsyn
 fi
+
+bitbake fsl-image-qt5
